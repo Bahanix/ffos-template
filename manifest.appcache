@@ -1,0 +1,10 @@
+CACHE MANIFEST
+
+# Version 1.0
+
+CACHE:
+/stylesheets/all.css
+/javascripts/lib/l10n.js
+/javascripts/localization.js
+/javascripts/all.js
+/index.html
