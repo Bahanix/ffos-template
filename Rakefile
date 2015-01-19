@@ -26,7 +26,7 @@ task :deploy do
   end
 
   system "git branch -D gh-pages"
-  if system "git checkout -b gh-pages && git push origin gh-pages && git checkout master"
+  if system "git checkout -b gh-pages && git push origin gh-pages -f"
     puts
     puts "\e[32mEverything seems OK!\e[39m Take a look at:"
     data = `git remote -v | grep push`.split(':').last.split('.').first.split('/')
@@ -35,4 +35,7 @@ task :deploy do
     puts
     puts "\e[31mSomething goes wrong :(\e[39m"
   end
+
+  puts
+  system "git checkout master"
 end
