@@ -2,19 +2,19 @@
   "version": "1.0",
   "name": "FFOS app template",
   "description": "Firefox OS open web app template with localisation.",
-  "launch_path": "/index.html",
+  "launch_path": "/ffos-template/index.html",
   "icons": {
-    "32": "/images/32.png",
-    "60": "/images/60.png",
-    "64": "/images/64.png",
-    "128": "/images/128.png",
-    "256": "/images/256.png"
+    "32": "/ffos-template/images/32.png",
+    "60": "/ffos-template/images/60.png",
+    "64": "/ffos-template/images/64.png",
+    "128": "/ffos-template/images/128.png",
+    "256": "/ffos-template/images/256.png"
   },
   "developer": {
     "name": "Julien Grillot",
     "url": "http://github.com/Bahanix/ffos-template"
   },
-  "appcache_path": "/manifest.appcache",
+  "appcache_path": "/ffos-template/manifest.appcache",
   "installs_allowed_from": ["*"],
   "locales": {
     "fr": {
